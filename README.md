@@ -25,3 +25,21 @@ This project is a machine learning web application built using **Flask** that pr
 
 ## 📁 Project Structure
 
+ipl_predictor_flask/
+├── app.py # Main Flask application
+├── ipl_predictor.pkl # Trained XGBoost model
+├── X_data.pkl # Historical player match data with features
+├── feature_columns.pkl # Feature columns used during model training
+├── templates/
+│ └── index.html # Web interface template
+
+
+---
+
+## 🧪 How to Run Locally
+
+### 1. Clone or download this repository
+
+```bash
+git clone https://github.com/your-username/ipl-run-predictor-flask.git
+cd ipl-run-predictor-flask
