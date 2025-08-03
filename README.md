@@ -27,10 +27,15 @@ This project is a machine learning web application built using **Flask** that pr
 
 ipl_predictor_flask/
 ├── app.py # Main Flask application
+
 ├── ipl_predictor.pkl # Trained XGBoost model
+
 ├── X_data.pkl # Historical player match data with features
+
 ├── feature_columns.pkl # Feature columns used during model training
+
 ├── templates/
+
 │ └── index.html # Web interface template
 
 
